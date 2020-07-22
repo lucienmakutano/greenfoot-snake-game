@@ -52,11 +52,6 @@ public class Snake extends Actor
         }
         
         
-        if (this.getEatenBabies() >= 5) {
-            this.increaseLevel();
-            this.increaseSpeedLevel();
-            this.moveAndTurn();
-        }
     }
     
     private void eat() {
